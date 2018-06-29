@@ -3,9 +3,12 @@
 
     background-color:black;
     color:white;
-    height:40px;
-    width:7000px;
+    height:0px;
+    width:70px;
+    margin-left: 170px;
+    margin-top:0px;
     display:flex;
+    font-size: 50px;
 }
 .headshot{
     width:40%;
@@ -33,7 +36,28 @@ body{
     height:40px;
     width:45px;
 }
-.size{
+.contact{
+    
+    width:7000px;
+    margin-left: 55px;
+    margin-top:0px;
     display:flex;
-    margin-left:45px;
+    font-size: 50px;
+}
+.myprojects{
+    width:200px;
+    margin-left: 55px;
+    margin-top:0px;
+    display:flex;
+    font-size: 50px;
+    
+}
+.nav-item{
+    width:300px;
+    list-style: none;
+    
+}
+.nav-item a{
+    font-size:48px;
+    color:white;
 }
