@@ -9,3 +9,24 @@ img{
 .color{
     background-color:red;
 }
+.name{
+    color:white;
+    width:150px;
+    height:100;
+}
+.nav-item{
+    width:300px;
+    list-style: none;
+    
+    
+}
+.nav-item {
+    font-size:48px;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+     margin-left: 10px;
+}
+.red{
+    color: red;
+}

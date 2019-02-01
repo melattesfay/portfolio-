@@ -16,21 +16,20 @@
 }
 .mid{
     background-color:white;
-    color:black;
+    color:white;
     align-items:center;
-    font-size:50px;
+    font-size:150px;
     margin-top:5px;
-    margin-left:500px;
+    margin-left:550px;
     height:0px;
 }
 
 .me{
     width:100px;
     height:100px;
-    border: 1px solid black;
 }
 body{
-    background-image: url(https://www.w3schools.com/css/paris.jpg)
+    background-image: url(https://www.w3schools.com/css/paris.jpg);
 }
 #about{
     height:40px;
@@ -52,6 +51,7 @@ body{
     margin-top:0px;
     display:flex;
     font-size: 50px;
+    background-color: purple;
     
 }
 .nav-item{
@@ -60,7 +60,7 @@ body{
     
     
 }
-.nav-item a{
+.nav-item {
     font-size:48px;
     color:white;
     display:flex;
@@ -75,4 +75,15 @@ body{
 .nav{
     display:flex;
     justify-content:center;
+}
+h3{
+color:red;
+}
+#read{
+    background-color: purple;
+    color:red;
+    width:150px;
+    height:100px;
+    border-bottom-width: 170;
+    border-color:green;
 }
