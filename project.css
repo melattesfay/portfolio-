@@ -1,6 +1,7 @@
 .image{
     width:100%;
     background-color:pink;
+    height:100%;
 }
 img{
     width:30%;
@@ -22,11 +23,28 @@ img{
 }
 .nav-item {
     font-size:48px;
-    color:white;
     display:flex;
     justify-content:space-around;
      margin-left: 10px;
 }
+.nav{
+    display:flex;
+    justify-content:center;
+}
+
+.nav-item {
+    font-size:48px;
+    display:flex;
+    justify-content:space-around;
+    margin-left: 10px;
+    width:300px;
+
+}
 .red{
     color: red;
+}
+
+.me{
+  display: flex;
+  justify-content:space-around;
 }

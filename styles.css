@@ -1,89 +1,45 @@
-
-.row{   
-
-    background-color:black;
-    color:white;
-    height:0px;
-    width:70px;
-    margin-left: 170px;
-    margin-top:0px;
-    display:flex;
-    font-size: 50px;
-}
-.headshot{
-    width:40%;
-   
-}
-.mid{
-    background-color:white;
-    color:white;
-    align-items:center;
-    font-size:150px;
-    margin-top:5px;
-    margin-left:550px;
-    height:0px;
-}
-
-.me{
-    width:100px;
-    height:100px;
-}
 body{
-    background-image: url(https://www.w3schools.com/css/paris.jpg);
+    background-color:black;
 }
-#about{
-    height:40px;
-    width:45px;
+h1{
     display:flex;
     justify-content:center;
-}
-.contact{
+    border:5px solid red;
+    background-color:pink;
     
-    width:100%;
-    margin-left: 55px;
-    margin-top:0px;
-    display:flex;
-    font-size: 50px;
-}
-.myprojects{
-    width:200px;
-    margin-left: 55px;
-    margin-top:0px;
-    display:flex;
-    font-size: 50px;
-    background-color: purple;
-    
-}
-.nav-item{
-    width:300px;
-    list-style: none;
-    
-    
-}
-.nav-item {
-    font-size:48px;
-    color:white;
-    display:flex;
-    justify-content:space-around;
-     margin-left: 10px;
-}
-.footer{
-    font-size: 30px;
-    color:red;
-    margin-top:700px;
-}
-.nav{
-    display:flex;
-    justify-content:center;
 }
 h3{
-color:red;
+    display:flex;
+    justify-content:center;
+    border:5px solid blue;
+    background-color:purple;
 }
-#read{
-    background-color: purple;
-    color:red;
-    width:150px;
-    height:100px;
-    border-bottom-width: 170;
-    border-color:green;
+h2{
+    display:flex;
+    justify-content:center;
+    border:5px solid blue;
+    background-color:purple;
+}
+
+#image{
+    display:flex;
+    justify-content:center;
+    
+    
+ 
+}
+.nav-item{
+    display:inline;
+    margin-left: 14%;
+    font-size: 70px ;
+    border:5px solid blue;
+    background-color:silver;
+    
+}
+.me{
+    width:30%;
+    height:40%;
+     border-radius:50%;
+     padding:15px;
+     border:5px solid green;
 }
